@@ -70,6 +70,10 @@ class ProgressBar(object):
 if __name__ == '__main__':
     # Demo:
 
+    pb = ProgressBar(100)
+    for _ in xrange(50):
+        pb.step()
+    
     import time
     pb = ProgressBar(100,
                      string1='\nHello ',
