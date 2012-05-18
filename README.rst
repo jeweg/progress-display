@@ -1,4 +1,4 @@
-progress-display
+py-progress-display
 ================
 
 A very simple Python port of `boost::progress_display`_.
